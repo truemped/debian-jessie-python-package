@@ -21,3 +21,8 @@ a debian package from a python project:
     - python-setuptools
     - lsb-release
     - devscripts
+
+License
+=======
+
+MIT, see LICENSE
