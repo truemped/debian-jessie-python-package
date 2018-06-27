@@ -8,6 +8,6 @@ RUN DEBIAN_FRONTEND=noninteractive                                   \
             libxml2-dev libcurl4-openssl-dev libssl-dev libxslt1-dev \
             python-pgmagick libtiff5-dev libpng12-dev libjpeg-dev    \
             libjasper-dev libwebp-dev python-setuptools lsb-release  \
-            devscripts python-pip &&                                 \
+            devscripts python-pip python-gevent libevent-dev &&      \
     pip install -U pip && \
     pip install -U setuptools
