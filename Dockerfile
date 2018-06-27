@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stretch
 MAINTAINER Daniel Truemper truemped@gmail.com
 
 RUN DEBIAN_FRONTEND=noninteractive                                   \
